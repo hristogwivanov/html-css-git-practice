@@ -1,0 +1,28 @@
+@import url('./css-reset.css');
+
+@import url('./font-awesome.css');
+@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@700&family=Montserrat:wght@400;700&display=swap');
+
+@import url('./header.css');
+@import url('./favourite.css');
+@import url('./article.css');
+@import url('./jack.css');
+@import url('./subscribe.css');
+@import url('./stats.css');
+@import url('./footer.css');
+
+body {
+    color: #fff;
+    overflow-x: hidden;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 10px 20px;
+}

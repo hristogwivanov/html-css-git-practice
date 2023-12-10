@@ -1,0 +1,25 @@
+@import url('./css-reset.css');
+
+@import url('./font-awesome.css');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@300;400;700&display=swap');
+
+@import url('./header.css');
+@import url('./tabs.css');
+@import url('./sub-list.css');
+@import url('./standart-picture.css');
+@import url('./advertising.css');
+@import url('./pricing.css');
+
+
+body {
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}

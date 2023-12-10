@@ -1,0 +1,76 @@
+#subscribe {
+    background-image: url('../images/subscribe-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#subscribe .container {
+    flex-direction: column;
+    text-align: center;
+    padding: 320px 0;
+}
+
+#subscribe h2 {
+    font-size: 75px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+#subscribe p {
+    font-size: 30px;
+    color: #54524f;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+    padding: 80px 0;
+}
+
+#subscribe form {
+    position: relative;
+    max-width: 70%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#subscribe form input {
+    background-color: #fff;
+    border-radius: 32px;
+    padding: 15px 200px 15px 25px;
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    opacity: 0.678;
+    font-size: 25px;
+    color: #54524f;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: left;
+
+}
+
+#subscribe form input::placeholder {
+    opacity: 0.502;
+
+}
+
+#subscribe form button[type="submit"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: max-content;
+    padding: 15px;
+    font-size: 25px;
+    border-radius: 32px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+    width: 222px;
+    height: 65px;
+    background-color: rgba(67,64,55);
+    border: none;
+}

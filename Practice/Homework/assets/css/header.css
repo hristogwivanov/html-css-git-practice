@@ -1,0 +1,61 @@
+header .nav-container {
+    padding-top: 20px;
+}
+
+header .nav-container .logo-wrapper a img {
+    padding-top: 10px;
+    height: 94px;
+    width: 91px;
+}
+
+header .nav-container nav {
+    padding-top: 40px;
+    flex-grow: 1;
+    margin: 0 15%;
+}
+
+
+header .nav-container nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li a {
+    font-size: 17px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #54524f;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-decoration: none;
+}
+
+header .nav-container form.search {
+    opacity: 0.471;
+    width: 183px;
+    height: 51px;
+    border-radius: 25px;
+    background-color: #7f7770;
+    position: relative;
+    margin-left: 64px;
+}
+
+header .nav-container form.search input {
+    height: 51px;
+    border: 0;
+    background-color: transparent;
+
+}
+
+header .nav-container form.search button {
+    background-color: transparent;
+    position: absolute;
+    top: 5;
+    right: 0;
+    margin: 0 10px;
+    height: 100%;
+    width: 51px;
+    font-size: 38px;
+    border: 0;
+}
+

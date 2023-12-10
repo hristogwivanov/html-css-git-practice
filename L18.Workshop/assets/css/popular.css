@@ -1,0 +1,48 @@
+#popular {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+#popular h2 {
+    text-align: center;
+}
+
+#popular > p {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    max-width: 50%;
+    margin: 20px auto 70px;
+}
+
+#popular div.container.menu-list {
+    justify-content: space-evenly;
+}
+
+#popular .menu-item {
+    flex: 1 1 30%;
+    text-align: center;
+    padding: 20px;
+}
+
+#popular .menu-item img {
+    border-radius: 50%;
+    width: 250px;
+    margin-bottom: 25px;
+}
+
+#popular .menu-item h3 {
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    margin-bottom: 30px;
+}
+
+#popular .menu-item p {
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+}

@@ -1,0 +1,92 @@
+.article {
+    background-color: #ffeedc;
+    padding: 160px;
+    position: relative;
+}
+
+.article img.design-el-tomato {
+    position:absolute;
+    top: 5%;
+}
+
+.article img.design-el-burger {
+    position:absolute;
+    right: -5%;
+    top: 0%;
+}
+
+.article img.design-el-rightpizza {
+    position:absolute;
+    bottom: 5%;
+    right: 8%;
+}
+
+.article img.design-el-leftpizza {
+    position:absolute;
+    bottom: -2%;
+    left: 8%;
+}
+
+.article img.design-el-tomato2 {
+    position:absolute;
+    top: 5%;
+    right: 5%;
+    transform: scaleX(-1);
+}
+
+.article img.design-el-burger2 {
+    position:absolute;
+    right: 40%;
+    top: 5%;
+    transform: scaleX(-1);
+}
+
+.article img.design-el-rightpizza2 {
+    position:absolute;
+    bottom: 5%;
+    right: 40%;
+    transform: scaleX(-1);
+}
+
+.article img.design-el-leftpizza2 {
+    position:absolute;
+    bottom: 3%;
+    right: 3%;
+    transform: scaleX(-1);
+}
+
+.article .container {
+    align-items: center;
+}
+
+.article .image-wrapper,
+.article .content-wrapper {
+    flex: 1 1 50%;
+}
+
+.article .image-wrapper {
+    text-align: center;
+}
+
+.article .image-wrapper img {
+    border-radius: 50%;
+    max-width: 60%;
+    width: 100%;
+}
+
+.article .content-wrapper h2 {
+    margin-bottom: 20px;
+    font-size: 53px;
+    color: #1b6ec7;
+    font-weight: 700;
+    font-family: "Aleo";
+}
+
+.article .content-wrapper p {
+    margin-bottom: 70px;
+    font-size: 14px;
+    color: #1a1a1a;
+    font-weight: 400;
+    font-family: "Montserrat";
+
+}

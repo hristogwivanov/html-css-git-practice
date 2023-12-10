@@ -1,0 +1,36 @@
+header div.container.nav-container{
+    justify-content: space-between;
+    }
+
+header .logo-wrapper,
+header nav, 
+header .search-wrapper {
+    flex-grow: 1;
+}
+
+header .logo-wrapper a {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 400;
+    font-family: "Montserrat";
+
+}
+
+header .banner-bg{
+    background-image: url('../images/header-bg.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+}
+
+header .banner-bg div.container.banner{
+    min-height: 800px; 
+    padding-top: 200px;
+    align-items: center;
+}
+
+header .banner-bg div.container.banner h1{
+    
+}
+

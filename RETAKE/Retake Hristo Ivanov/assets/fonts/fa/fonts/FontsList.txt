@@ -1,0 +1,7 @@
+Open Sans 400
+Open Sans 600
+Open Sans 700
+Raleway
+Raleway 300
+Raleway 400
+Raleway 700

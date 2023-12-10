@@ -1,0 +1,26 @@
+#jack {
+    padding: 0 0 400px 0;
+    background-image: linear-gradient(rgba(85, 4, 4, 0.327),rgba(112, 1, 1, 0.3)), url("../images/jack-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#jack .container {
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+    position: relative;
+}
+
+#jack .content-wrapper{
+    margin-top: 40%;
+}
+
+#jack h3 {
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+}

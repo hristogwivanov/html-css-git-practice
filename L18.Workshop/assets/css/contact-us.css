@@ -1,0 +1,47 @@
+#contact-us {
+    background-color: #ffd17e;
+}
+
+#contact-us .container{
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+}
+
+#contact-us h2 {
+    color: #21243d;
+}
+
+#contact-us p {
+    font-size: 30px;
+
+}
+
+#contact-us form{
+    position: relative;
+    max-width: 70%;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+#contact-us form input {
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 15px;
+    border: none;
+    width: 100%;
+    font-size: 25px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Montserrat";
+    box-sizing: border-box;
+}
+
+#contact-us form input::placeholder{
+    color: rgba(0,0,0, 0.7)
+}
+
+#contact-us form input[type="submit"]{
+    position: absolute;
+}

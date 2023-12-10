@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "title": "First post",
+        "content": "This is my content",
+        "keywords": [
+            "post",
+            "first",
+            "content"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Special post",
+        "content": "Special super secret content",
+        "keywords": [
+            "unique",
+            "special",
+            "secret"
+        ]
+    }
+]

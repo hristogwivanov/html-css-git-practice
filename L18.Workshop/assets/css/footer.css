@@ -1,0 +1,55 @@
+footer {
+    background: black;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+footer .container {
+    gap: 50px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .footer-content {
+    flex: 3 1 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .footer-content h3{
+    font-size: 32px;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+footer .footer-content p{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+footer .footer-content ul{
+    display: flex;
+    gap: 20px;
+}
+
+footer .footer-content ul li{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    /* text-align: center; */
+    box-sizing: border-box;
+}
+
+footer .site-map {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+

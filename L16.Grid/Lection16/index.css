@@ -1,0 +1,366 @@
+/* .item {
+    background: #1ae527;
+    padding: 0.5em;
+    border: 5px solid #670707;
+    box-sizing: border-box;
+} */
+
+/* .container {
+    display: grid;
+    border: 1px solid brown;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: repeat(4, 100px); */
+    /* grid-auto-rows: 100px;
+    grid-auto-columns: 100px;
+    grid-auto-flow: row; */
+
+    /* grid-template-areas: 
+        'logo nav login'
+        'sidebar main main'
+        'footer footer footer'; */
+/* } */
+
+/* .one { */
+    /* background: #ffa60b; */
+    /* grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3; */
+    /* grid-area: logo; */
+    /* grid-column: span 3; */
+/* } */
+
+/* .two {
+    background: #ee3daa;
+    grid-area: 2 / 2 / 5 / 6;
+    z-index: 1;
+
+    grid-area: nav;
+}
+
+.three {
+    background: #165dd6;
+    grid-area: row-start / column-start / row-end / column-end;
+    grid-column: 1 / 7;
+    grid-row: 3 / 7;
+    grid-area: login;
+}
+
+.four {
+    grid-area: footer;
+    grid-row: span 2;
+} */
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #daac00;
+}
+
+header .header-container {
+    display: grid;
+    max-width: 1200px;
+    margin: 0 auto;
+    grid-template-rows: 120px;
+    grid-template-columns: 220px minmax(200px, 1fr) 270px;
+
+    justify-items: center;
+    align-items: center;
+}
+
+header .header-container .logo-wrapper p a {
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+header .header-container .nav-wrapper ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+header .header-container .nav-wrapper ul li a {
+    font-size: 29px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+header .header-container .search-wrapper form {
+    position: relative;
+}
+
+header .header-container .search-wrapper form input {
+    background: #fcc302;
+    width: 100%;
+    padding: 5px;
+    font-size: 21px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    box-sizing: border-box;
+}
+
+header .header-container .search-wrapper form input::placeholder {
+    color: #ffffff;
+    opacity: 1;
+}
+
+header .header-container .search-wrapper form input[type="submit"] {
+    background: #00bec9;
+    width: unset;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+section.bg-y {
+    background: #fcc302;
+    padding: 100px 0;
+    box-sizing: border-box;
+}
+
+section .banner-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+section .banner-container .banner-content {
+    display: grid;
+    grid-template-rows: 220px 220px 100px;
+}
+
+section .banner-container .banner-content h1 {
+    font-size: 67px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    align-self: start;
+}
+
+section .banner-container .banner-content p {
+    font-size: 29px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    align-self: center;
+}
+
+section .banner-container .banner-content .banner-buttons {
+    align-self: end;
+}
+
+section .banner-container .banner-content .banner-buttons button {
+    text-transform: capitalize;
+    font-size: 21px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+section .banner-container .banner-content .banner-buttons button.btn-contact {
+    background: #00bec9;
+    border: 4px solid #00bec9;
+    margin-right: 20px;
+}
+
+section .banner-container .banner-content .banner-buttons button.btn-contact:hover {
+    color: #00bec9;
+    background: transparent;
+}
+
+section .banner-container .banner-content .banner-buttons button.btn-service {
+    background: transparent;
+    border: 4px solid #fff;
+}
+
+section .banner-container .banner-content .banner-buttons button.btn-service:hover {
+    background: #fff;
+    border: 4px solid transparent;
+    color: #fcc302;
+}
+
+section {
+    padding: 100px 0;
+    box-sizing: border-box;
+}
+
+section .service-container {
+    display: grid;
+    max-width: 1200px;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+}
+
+section .service-container .service-content {
+    display: grid;
+    grid-template-rows: 220px 220px 100px;
+}
+
+section .service-container .service-content h2 {
+    font-size: 50px;
+    color: #313243;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+section .service-container .service-content p {
+    font-size: 29px;
+    letter-spacing: 0px;
+    color: #313243;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+
+section .service-container .service-content .service-button button.btn-service {
+    text-transform: capitalize;
+    font-size: 21px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #fcc302;
+    border: 4px solid #fcc302;
+}
+
+section .service-container .service-content .service-button button.btn-service:hover {
+    background-color: #fff;
+    color: #fcc302;
+}
+
+section .service-container .service-image {
+    align-self: center;
+    position: relative;
+}
+
+section .service-container .service-image::before {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: calc(100% - 80px);
+    right: calc(100% - 80px);
+    background-color: #fcc302;
+}
+
+section .service-container .service-image .image-placeholder {
+    width: 400px;
+    height: 400px;
+    /* background-color: red; */
+    position: relative;
+}
+
+section .service-container .service-image .image-placeholder::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 96%;
+    background-color: #fcc302;
+    top: 0;
+    left: 0;    
+    opacity: 0.6;
+}
+
+section .service-container .service-image .image-placeholder img {
+    width: 100%;
+}
+
+section .services-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 400px 80px 80px;
+    grid-template-areas: 
+    'title title title' 
+    'slogan slogan slogan'
+    'img-1 img-2 img-3' 
+    'sub-title-1 sub-title-2 sub-title-3' 
+    'p-1 p-2 p-3';
+    grid-gap: 0 60px;
+}
+
+section .services-container h2.title {
+    grid-area: title;
+    justify-self: center;
+}
+
+section .services-container p.slogan {
+    grid-area: slogan;
+    justify-self: center;
+}
+
+section .services-container img {
+    width: 100%;
+}
+
+section .services-container img.img-1 {
+    grid-area: img-1;
+    justify-self: center;
+}
+
+section .services-container img.img-2 {
+    grid-area: img-2;
+    justify-self: center;
+}
+
+section .services-container img.img-3 {
+    grid-area: img-3;
+    justify-self: center;
+}
+
+section .services-container h3.sub-h3-1 {
+    grid-area: sub-title-1;
+    justify-self: center;
+}
+
+section .services-container h3.sub-h3-2 {
+    grid-area: sub-title-2;
+    justify-self: center;
+}
+
+section .services-container h3.sub-h3-3 {
+    grid-area: sub-title-3;
+    justify-self: center;
+}
+
+section .services-container p.p-1 {
+    grid-area: p-1;
+    justify-self: center;
+}
+
+section .services-container p.p-2 {
+    grid-area: p-2;
+    justify-self: center;
+}
+
+section .services-container p.p-3 {
+    grid-area: p-3;
+    justify-self: center;
+}

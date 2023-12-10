@@ -1,0 +1,21 @@
+@import url('./css-reset.css');
+
+@import url('./font-awesome.css');
+
+@import url("./header.css");
+@import url("./popular.css");
+
+body{
+    background-color: #21243d;
+    color: #fff;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 10px 20px; 
+}

@@ -1,0 +1,29 @@
+#hiking-text {
+    background-image: url('../images/section4-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#hiking-text .container {
+    padding: 250px 110px;
+    justify-content: center;
+}
+
+#hiking-text h2 {
+    font-size: 58px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Open Sans";
+    text-align: center;
+    padding: 20px;
+}
+
+#hiking-text p {
+    font-size: 29px;
+    color: #dbdbdb;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+    padding: 20px;
+}

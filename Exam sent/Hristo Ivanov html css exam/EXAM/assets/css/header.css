@@ -1,0 +1,68 @@
+header .banner-bg {
+    background-image: url('../images/nav-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+header .nav-container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .nav-container .logo-wrapper a img {
+    height: 77px;
+    width: 77px;
+}
+
+/* header .nav-container .logo-wrapper, */
+header .nav-container nav {
+    flex-grow: 1;
+}
+
+header .nav-container nav {
+    margin: 0 20%;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li a {
+    font-size: 23px;
+    letter-spacing: 0px;
+    line-height: 39px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    text-decoration: none;
+}
+
+header .title-container {
+    max-width: 45%;
+}
+
+header .title-container h1 {
+    font-size: 134px;
+    font-weight: 700;
+    font-family: "Aleo";
+    margin-bottom: 70px;
+}
+
+header .title-container .btn-title {
+    color: #ffffff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    font-family: "Montserrat";
+    text-align: center;
+    border: none;
+    width: 202px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #1b6ec7;
+}

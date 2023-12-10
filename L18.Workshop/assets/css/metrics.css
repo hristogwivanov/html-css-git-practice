@@ -1,0 +1,19 @@
+#metrics h2{
+    text-align:center;
+}
+
+#metrics .statistics-item {
+
+}
+
+#metrics .statistics-item p {
+    font-size: 17px;
+    color: #fff;
+}
+
+.statistics-item > div {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}

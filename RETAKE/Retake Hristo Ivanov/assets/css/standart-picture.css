@@ -1,0 +1,30 @@
+
+#standart-picture{
+    padding-top: 140px;
+}
+
+#standart-picture .container{
+    display:flex;
+}
+
+#standart-picture .container .content-container{
+    max-width: 30%;
+    padding: 0px 100px;
+}
+
+#standart-picture .container .content-container h2{
+    font-size: 20px;
+    line-height: 43px;
+    color: #212121;
+    font-weight: 700;
+    font-family: "Open Sans";
+}
+
+#standart-picture .container .content-container p{
+    padding: 20px 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: #86878b;
+    font-weight: 400;
+    font-family: "Open Sans";
+}

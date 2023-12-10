@@ -1,0 +1,43 @@
+.article {
+    background-color: #ffeedc;
+    padding: 100px;
+}
+
+.article .container {
+    align-items: center;
+}
+
+.article .image-wrapper,
+.article .content-wrapper {
+    flex: 1 1 50%;
+}
+
+.article .image-wrapper {
+    text-align: center;
+}
+
+
+
+.article .image-wrapper img {
+    border-radius: 50%;
+    max-width: 60%;
+    width: 100%;
+}
+
+.article .content-wrapper h2 {
+    margin-bottom: 20px;
+    font-size: 53px;
+    color: #1b6ec7;
+    font-weight: 700;
+    font-family: "Aleo";
+    text-align: center;
+}
+
+.article .content-wrapper p {
+    margin-bottom: 70px;
+    font-size: 14px;
+    color: #1a1a1a;
+    font-weight: 400;
+    font-family: "Montserrat";
+
+}

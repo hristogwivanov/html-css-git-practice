@@ -1,0 +1,45 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+}
+
+/* Extra small devices /phone, smartwatch and other smart devices/ */
+@media screen and (max-width: 600px) {
+    .container {
+        background-color: blueviolet;
+    }
+}
+
+/* Small devices / portrait tablet, large phone /*/
+@media screen and (min-width: 600px) {
+    .container {
+        background-color: turquoise;
+    }
+}
+
+/* Medium devices / horizontal tablet, small laptop /*/
+@media screen and (min-width: 768px) {
+    .container {
+        background-color: blue;
+    }
+}
+
+/* Large devices /desktop, laptop/ */
+@media screen and (min-width: 992px) {
+    .container {
+        background-color: yellow;
+    }
+}
+
+/* Extra large devices /desktop, large laptop, tv / */
+@media screen and (min-width: 1200px) {
+    .container {
+        background-color: green;
+    }
+}

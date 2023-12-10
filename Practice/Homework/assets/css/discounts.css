@@ -1,0 +1,68 @@
+#discounts .discount {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#discounts .discount .image-wrapper {
+    width: 50%;
+    background-image: url(../images/section3-img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#discounts .discount:nth-child(2) .image-wrapper{
+    background-image: url(../images/section3-img2.jpg);
+}
+
+#discounts .discount .info {
+    background-color: #7f776f;
+    width: 50%;
+}
+
+#discounts .discount:nth-of-type(2) .info {
+    background-color: #deb37e;
+}
+
+#discounts .discount .info .text-wrapper {
+    padding: 200px 50px;
+    max-width: 600px;
+    margin-right: 0;
+}
+
+#discounts .discount:nth-of-type(2) .info .text-wrapper {
+    float:right;
+}
+
+#discounts .discount .info .text-wrapper h2 {
+    font-size: 58px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+}
+
+#discounts .discount .info .text-wrapper p {
+    width: 640px;
+    height: 175px;
+    font-size: 29px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+#discounts .discount .info .text-wrapper button {
+    width: 334px;
+    height: 75px;
+    border-radius: 37px;
+    background-color: #e2a355;
+    border: none;
+    font-size: 29px;
+    letter-spacing: 6px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+}

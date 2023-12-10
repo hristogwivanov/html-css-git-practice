@@ -1,0 +1,67 @@
+#tabs {
+    padding-top: 120px;
+}
+
+#tabs .container {
+    display: flex;
+}
+
+#tabs .tabs-container .tab {
+    background-color: #333333;
+    height: 112px;
+    width: 112px;
+    text-align: center;
+    justify-content: baseline;
+    border: 1px solid white;
+    border-radius: 3px;
+
+}
+
+#tabs .tabs-container .tab:hover {
+    background-color: #ff8b38;
+}
+
+#tabs .tabs-container .tab span {
+    font-size: 15px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+    padding-top: 46px;
+    align-self: center;
+    display: block;
+}
+
+#tabs .tabs-text-container {
+    max-width: 40%;
+    padding: 0 100px;
+}
+
+#tabs .tabs-text-container h2 {
+    font-size: 20px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Open Sans";
+}
+
+#tabs .tabs-text-container p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #86878b;
+    font-weight: 400;
+    font-family: "Open Sans";
+    margin: 50px 0;
+}
+
+#tabs .tabs-text-container button {
+    font-size: 15px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Open Sans";
+    height: 46px;
+    width: 121px;
+    background-color: #ff8b38;
+    border: none;
+    border-radius: 3px;
+}

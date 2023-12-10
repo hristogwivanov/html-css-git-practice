@@ -1,0 +1,44 @@
+footer {
+    background-color: #111111;
+    padding-top: 120px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .site-map {
+    flex:  1 1 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer .site-map h3 {
+    font-size: 25px;
+    line-height: 31px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+
+footer .list {
+    list-style: disc;
+    margin-left: 10px;
+
+}
+
+footer .site-map ul li{
+    margin-left: 30px;
+}
+
+footer .site-map ul li,
+footer .site-map p{
+    font-size: 18px;
+    line-height: 32px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+}

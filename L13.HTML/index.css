@@ -1,0 +1,65 @@
+/* body {
+    background: red;
+    color: white
+}
+
+p, a {
+    text-transform: uppercase;
+} */
+/* 
+selector {
+    declaration
+} */
+
+/* Universal selector */
+/* * {
+    text-transform: lowercase;
+} */
+
+/* Type selector */
+/* h1, h2, h3 {
+    color: blue
+} */
+
+/* p {
+    background: yellow;
+} */
+
+/* Class selector */
+/* .post {
+    color: red;
+} */
+
+/* p.post {
+    color: blue;
+} */
+
+/* ID selector */
+/* #special {
+    text-transform: uppercase;
+} */
+
+/* Child Selector */
+/* li > a {
+    text-decoration: none;
+} */
+
+
+/* Descentants Selector */
+/* li a {
+    text-decoration: none;
+} */
+
+/* Adjacent sibling */
+/* li + p {
+
+} */
+
+/* General sibling */
+/* li ~ p {
+
+} */
+
+/* * {
+    color: red;
+} */

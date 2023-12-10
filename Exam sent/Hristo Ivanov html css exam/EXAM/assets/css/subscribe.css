@@ -1,0 +1,72 @@
+#subscribe {
+    background-color: #ffeedc;
+}
+
+#subscribe .container {
+    flex-direction: column;
+    text-align: center;
+    padding: 200px 0 200px 0;
+}
+
+#subscribe h2 {
+    font-size: 53px;
+    color: #4d80e4;
+    font-weight: 700;
+    font-family: "Aleo";
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#subscribe p {
+    font-size: 25px;
+    color: #1a1a1a;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+#subscribe form {
+    position: relative;
+    max-width: 70%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#subscribe form input {
+    background-color: #fff;
+    border-radius: 32px;
+    padding: 15px 200px 15px 25px;
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 25px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    height: 65px;
+
+}
+
+#subscribe form input::placeholder {
+    opacity: 0.502;
+
+}
+
+#subscribe form input[type="submit"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: max-content;
+    padding: 15px;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+    width: 222px;
+    height: 65px;
+    background-color: #4d80e4;
+}

@@ -1,0 +1,37 @@
+/* .red-box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+div.container div {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    font-size: 24px;
+    text-align: center;
+    display: inline-block;
+    background-color: red;
+}
+
+.highlight {
+    box-shadow: 2px 2px 1px 1px rgba(0,0,0,0.3), -2px -2px 1px 1px rgba(0,0,0,0.3),
+    -2px 2px 1px 1px rgba(0,0,0,0.3), 2px -2px 1px 1px rgba(0,0,0,0.3);
+} */
+
+.placeholder span {
+    font-size: 36px;
+    margin-right: 5px;
+}
+
+.correct-letters .correct{
+    font-size: 36px;
+    color: green;
+    margin-right: 5px
+}
+
+.wrong-letters .wrong{
+    font-size: 36px;
+    color: red;
+    margin-right: 5px
+}

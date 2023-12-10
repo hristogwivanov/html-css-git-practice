@@ -1,0 +1,82 @@
+#pricing .container {
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#pricing .container .top-content h2 {
+    font-size: 36px;
+    line-height: 43px;
+    color: #212121;
+    font-weight: 400;
+    font-family: "Raleway";
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#pricing .container .top-content img {
+    margin: 0 calc(50% - 32px);
+}
+
+#pricing .container .top-content p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #86878b;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+    padding: 20px;
+}
+
+
+#pricing .container .options {
+    display: flex;
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+#pricing .container .options .option div:nth-child(1) {
+    height: 59px;
+}
+
+#pricing .container .options .option div:nth-child(2) {
+    height: 100px;
+    font-size: 35px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+    text-align: center;
+    padding-top: 30px;
+}
+
+#pricing .container .options .option div:nth-child(2) p {
+    opacity: 0.502;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+#pricing .container .options .option div:nth-child(-n + 2) {
+    background-color: #333333;
+}
+
+#pricing .container .options .option div {
+    width: 343px;
+    border: 1px solid white;
+}
+
+#pricing .container .options .option h3 {
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+    padding-top: 16px;
+}

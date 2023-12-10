@@ -1,0 +1,56 @@
+#hiking {
+    background-image: url('../images/section1-background2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#hiking .title-container{
+    padding: 200px 0;
+    max-width: 45%;
+}
+
+#hiking h1 {
+    font-size: 92px;
+    color: #deb37e;
+    font-weight: 800;
+    font-family: "Open Sans";
+    filter: drop-shadow(2.575px -4.286px 2.5px rgba(84, 82, 79, 0.22));
+    text-transform: uppercase;
+}
+
+#hiking h2 {
+    font-size: 25px;
+    letter-spacing: 5px;
+    color: #54524f;
+    font-weight: 700;
+    font-style: italic;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+}
+
+#hiking button {
+    opacity: 0.902;
+    width: 218px;
+    height: 47px;
+    border-radius: 21px;
+    background-color: #ffffff;
+    font-size: 25px;
+    color: #776c64;
+    font-weight: 800;
+    font-family: "Open Sans";
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    margin: 60px 0 20px 0;
+
+}
+
+#hiking p {
+    font-size: 21px;
+    letter-spacing: 1px;
+    color: #54524f;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Open Sans";
+}

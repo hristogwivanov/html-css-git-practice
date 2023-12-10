@@ -1,0 +1,66 @@
+#advertising .container {
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#advertising .container .top-content h2 {
+    font-size: 36px;
+    line-height: 43px;
+    color: #212121;
+    font-weight: 400;
+    font-family: "Raleway";
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#advertising .container .top-content img {
+    margin: 0 calc(50% - 32px);
+}
+
+#advertising .container .top-content p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #86878b;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+    padding: 20px;
+}
+
+#advertising .container .adv-items {
+    display: flex;
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+#advertising .container .adv-items .adv-item i {
+    font-size: 32px;
+    color: #ff8b38;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#advertising .container .adv-items .adv-item h3 {
+    font-size: 20px;
+    line-height: 24px;
+    color: #333333;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+    padding: 10px 0;
+
+}
+
+#advertising .container .adv-items .adv-item p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #86878b;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+    padding: 10px 0;
+
+}

@@ -1,0 +1,77 @@
+/* * {
+    border: 1px solid rgb(0,0,0);
+} */
+
+nav ul {
+    list-style: none;
+}
+
+.news-post {
+    font-size: 14px;
+    background: #808080;
+}
+
+.news-post h2 {
+    font-style: italic;
+    font-size: 24px;
+    color: rgb(255, 0, 0);
+}
+
+.news-post p {
+    font-family: monospace;
+    font-size: 16px;
+}
+
+#one {
+    background: rgb(22, 110, 240);
+}
+
+#one h2 {
+    letter-spacing: 5px;
+    background-color: black;
+}
+
+#one p {
+    letter-spacing: 2px;
+    line-height: 24px;
+}
+
+#two {
+    background: aquamarine;
+}
+
+#two h2 {
+    font-family:'Courier New', Courier, monospace;
+}
+
+#two p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#three h2 {
+    font-weight: unset;
+    color: white;
+    font-style: normal;
+}
+
+#three p {
+    font-weight: bold;
+}
+
+#two {
+    padding: 20px 15px 25px 5px;
+    margin: 25px 20px 10px 15px;
+}
+
+h1 {
+    text-shadow: 5px 5px 5px rgba(133, 35, 35), -5px 5px rgb(250, 8, 8, 0.5), 5px -5px 5px rgba(0, 0, 0, 0.5),
+    -5px -5px 5px rgba(0, 0, 0, 0.5);
+}
+
+#border {
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    border: 5px solid blue;
+    border-radius: 50%;
+}

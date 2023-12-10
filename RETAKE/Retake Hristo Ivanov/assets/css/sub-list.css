@@ -1,0 +1,56 @@
+
+#sub-list{
+    padding-top: 200px;
+}
+
+#sub-list .container{
+    display:flex;
+}
+
+#sub-list .container .content-container{
+    max-width: 30%;
+    padding: 0px 100px;
+}
+
+#sub-list h2{
+    font-size: 20px;
+    line-height: 43px;
+    color: #212121;
+    font-weight: 700;
+    font-family: "Open Sans";
+}
+
+#sub-list .container .content-container p{
+    padding: 10px 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: #86878b;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+#sub-list .container .content-container>p{
+    padding: 20px 0;
+}
+
+#sub-list h3{
+    font-size: 14px;
+    line-height: 17px;
+    color: #212121;
+    font-weight: 600;
+    font-family: "Open Sans";
+}
+
+#sub-list .item-section{
+    display: flex;
+}
+
+#sub-list .item-section .item-content{
+    max-width: 90%;
+}
+
+#sub-list .item-fa{
+    font-size: 16px;
+    color: #ff8b38;
+    font-family: "Font Awesome";
+}

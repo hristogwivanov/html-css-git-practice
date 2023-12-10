@@ -1,0 +1,107 @@
+.container {
+    /* width: 960px;
+    height: 300px; */
+    /* background: rgba(80, 80, 80, 0.5);
+    max-width: 960px;
+    display: flex;
+    flex-direction: row; */
+    /* flex-wrap: wrap-reverse; */
+
+    /* flex-flow: row wrap; */
+    /* justify-content: center;
+    align-items: center; */
+    /* row-gap: 10px;
+    column-gap: 20px; */
+}
+
+/* .box {
+    max-width: 100px;
+    height: 100px;
+    flex-grow: 1;
+} */
+
+/* .red{
+    background-color: red;
+    order: 1;
+    flex-basis: 10%;
+    flex-grow: 2;
+
+} */
+
+/* .yellow{
+    background: yellow;
+    order: 3;
+    flex-basis: 30%;
+    flex-grow: 2;
+} */
+
+/* .blue{
+    background-color: blue;
+    order: 2;
+    flex-basis: 40%;
+    flex-grow: 2;
+} */
+body{
+    font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+div.banner {
+    background: #404eed;
+}
+
+header {
+    max-width:1260px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: center;
+
+}
+
+header div.logo-container{
+
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    column-gap: normal;
+
+}
+
+header div button {
+    border: none;
+    border-radius: 25px;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+div.banner {
+    max-width: 1260px;
+    margin: 40px auto;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.banner h1{
+    font-family: "ABC Ginto Nord", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+div.banner p{
+    width: 65%; 
+    font-size: 20px;
+}
+
+button.secondary-button{
+    background: #222629;
+    color: white;
+}
+
+.container .image-container {
+    flex-basis: 60%;
+}

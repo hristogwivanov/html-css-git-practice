@@ -1,0 +1,29 @@
+header {
+    background-color: #daac00;
+}
+
+
+header .header-container {
+    display: grid;
+    max-width: 1440px;
+    grid-template-rows: 121px;
+    margin: 0 auto;
+    grid-template-columns:  257px minmax(200px, 1fr) 270px;
+    justify-items: center;
+    align-items: center;
+}
+
+header .header-container .nav-wrapper ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+header .header-container .nav-wrapper ul li a {
+    font-size: 29px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Poppins";
+    text-decoration: none;
+}

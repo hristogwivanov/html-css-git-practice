@@ -1,0 +1,31 @@
+#popular {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+#popular h2 {
+    font-size: 64px;
+    font-weight: bold;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+#popular > p {
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    max-width: 50%;
+    margin: 20px auto;
+}
+
+#popular div.container.menu-list {
+    justify-content: space-evenly;
+}
+
+#popular .menu-item{
+    flex: 1 1 30%;
+    text-align: center;
+    padding: 20px;
+}

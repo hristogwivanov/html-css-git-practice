@@ -1,0 +1,57 @@
+#reviews .items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 200px 0;
+}
+
+#reviews .item {
+    max-width: 30%;
+}
+
+#reviews .item h2 {
+    font-size: 33px;
+    line-height: 33px;
+    color: #deb37e;
+    font-weight: 700;
+    font-family: "Open Sans";
+}
+
+#reviews .item p {
+    font-size: 19px;
+    line-height: 25px;
+    color: #333d42;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+#reviews .review {
+    padding: 0 0 100px 0;
+}
+
+#reviews .review .quatiation-mark {
+    font-size: 100px;
+    color: #3f3f3f;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+#reviews .review .quote {
+    font-size: 25px;
+    color: #3f3f3f;
+    font-weight: 600;
+    font-family: "Open Sans";
+    text-align: center;
+    padding: 0 0 60px 0;
+}
+
+#reviews .review h3 {
+    font-size: 21px;
+    line-height: 33px;
+    color: #3f3f3f;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+}
